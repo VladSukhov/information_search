@@ -1,0 +1,12 @@
+db:
+  host: "localhost"
+  port: 27017
+  name: "ir_lab"
+  collection: "documents"
+
+logic:
+  delay: 2
+  reindex_days: 7
+  sources:
+    - name: "shikimori"
+    - name: "kanobu"
